@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="347e6464-3a14-4fc0-943d-569586d7fa71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monprojet/monapp/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monprojet/monapp/urls.py" afterDir="false" />
+    <list default="true" id="347e6464-3a14-4fc0-943d-569586d7fa71" name="Changes" comment="TPnoté">
+      <change afterPath="$PROJECT_DIR$/monprojet/monprojet/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monprojet/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/monprojet/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +23,27 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Tpnoté &lt;maelys.fomholtz@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MaelysFmltz"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MaelysFmltz/ProjectDjango.git",
+    "accountId": "bcc7a927-757b-43c4-abe9-1d534255c09d"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -62,6 +76,43 @@
       <option name="presentableId" value="Default" />
       <updated>1745494568475</updated>
     </task>
+    <task id="LOCAL-00001" summary="TPnoté">
+      <option name="closed" value="true" />
+      <created>1745499096376</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745499096376</updated>
+    </task>
+    <task id="LOCAL-00002" summary="TPnoté">
+      <option name="closed" value="true" />
+      <created>1745499175773</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745499175773</updated>
+    </task>
+    <task id="LOCAL-00003" summary="TPnoté">
+      <option name="closed" value="true" />
+      <created>1745499232844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745499232844</updated>
+    </task>
+    <task id="LOCAL-00004" summary="TPnoté">
+      <option name="closed" value="true" />
+      <created>1745499243488</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745499243488</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TPnoté" />
+    <option name="LAST_COMMIT_MESSAGE" value="TPnoté" />
   </component>
 </project>
