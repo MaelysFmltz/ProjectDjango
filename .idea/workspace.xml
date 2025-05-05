@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="347e6464-3a14-4fc0-943d-569586d7fa71" name="Changes" comment="TPnoté">
-      <change afterPath="$PROJECT_DIR$/monprojet/monprojet/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monprojet/monapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monprojet/monapp/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monprojet/monapp/templates/monapp/form_pays.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monprojet/monapp/templates/monapp/form_region.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monprojet/monapp/templates/monapp/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monprojet/monapp/templates/monapp/liste_pays.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monprojet/monapp/templates/monapp/liste_regions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/monprojet/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/monprojet/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monprojet/monapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/monprojet/monapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monprojet/monapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/monprojet/monapp/templates/monapp/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monprojet/monapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/monprojet/monapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monprojet/monapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/monprojet/monapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monprojet/monprojet/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/monprojet/monprojet/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -32,21 +45,21 @@
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MaelysFmltz"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MaelysFmltz&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/MaelysFmltz/ProjectDjango.git",
-    "accountId": "bcc7a927-757b-43c4-abe9-1d534255c09d"
+    "accountId": "49a2a0f3-1eb4-4fca-80d9-f202f2aa8255"
   }
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2wAq8eVGRcvBB8sL98qfRpbAYsp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -57,9 +70,15 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\e2401977\PycharmProjects\ProjectDjango\monprojet\monapp\templates\région" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

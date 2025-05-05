@@ -1,0 +1,13 @@
+{% extends 'monapp/base.html' %}
+
+{% block title %}Formulaire Pays{% endblock %}
+
+{% block content %}
+    <h2>Formulaire de Pays</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Enregistrer</button>
+        <a href="{% url 'liste_pays' %}" class="btn">Retour</a>
+    </form>
+{% endblock %}

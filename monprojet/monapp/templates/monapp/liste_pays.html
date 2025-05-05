@@ -1,0 +1,15 @@
+{% extends 'monapp/base.html' %}
+
+{% block title %}Liste des Pays{% endblock %}
+
+{% block content %}
+<h2>Liste des Pays</h2>
+<ul class="liste">
+  {% for p in pays %}
+    <li>{{ p.nom }} (code : {{ p.code }})</li>
+  {% empty %}
+    <li>Aucun pays enregistré.</li>
+  {% endfor %}
+</ul>
+<a class="btn" href="{% url 'ajouter_pays' %}">Ajouter un pays</a>
+{% endblock %}

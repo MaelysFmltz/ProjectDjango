@@ -1,0 +1,15 @@
+{% extends 'monapp/base.html' %}
+
+{% block title %}Liste des Régions{% endblock %}
+
+{% block content %}
+<h2>Liste des Régions</h2>
+<ul class="liste">
+  {% for r in regions %}
+    <li>{{ r.nom }} (Pays : {{ r.pays.nom }})</li>
+  {% empty %}
+    <li>Aucune région enregistrée.</li>
+  {% endfor %}
+</ul>
+<a class="btn" href="{% url 'ajouter_region' %}">Ajouter une région</a>
+{% endblock %}

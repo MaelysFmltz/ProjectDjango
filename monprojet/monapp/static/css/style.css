@@ -1,0 +1,130 @@
+body {
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f4f7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#f2f4f7
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #cce6ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+main {
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+    background-color: #003366;
+    color : white;
+}
+
+h2 {
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+/* Boutons */
+.btn, button {
+    display: inline-block;
+    background-color: #005fa3;
+    color: white;
+    padding: 8px 14px;
+    margin-top: 10px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover, button:hover {
+    background-color: #003f73;
+}
+
+/* Liens d’action */
+a.edit, a.delete {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+a.edit {
+    color: #28a745;
+}
+
+a.delete {
+    color: #dc3545;
+}
+
+a.edit:hover {
+    text-decoration: underline;
+}
+
+a.delete:hover {
+    text-decoration: underline;
+}
+
+
+ul.liste {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.liste li {
+    background-color: #f0f8ff;
+    border-left: 4px solid #0077cc;
+    margin-bottom: 12px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+form {
+    margin-top: 15px;
+}
+
+form input, form select, form textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
