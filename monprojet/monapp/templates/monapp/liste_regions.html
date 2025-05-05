@@ -4,12 +4,20 @@
 
 {% block content %}
 <h2>Liste des Régions</h2>
-<ul class="liste">
-  {% for r in regions %}
-    <li>{{ r.nom }} (Pays : {{ r.pays.nom }})</li>
-  {% empty %}
-    <li>Aucune région enregistrée.</li>
-  {% endfor %}
-</ul>
+<form method="post" action="{% url 'supprimer_region_selection' %}">
+    {% csrf_token %}
+    <ul class="liste">
+      {% for r in regions %}
+        <li>
+          <input type="checkbox" name="regions" value="{{ r.pk }}"> {{ r.nom }} (Pays : {{ r.pays.nom }})
+        </li>
+      {% empty %}
+        <li>Aucune région enregistrée.</li>
+      {% endfor %}
+    </ul>
+    <button type="submit" class="btn">Supprimer les régions sélectionnées</button>
+</form>
+
+
 <a class="btn" href="{% url 'ajouter_region' %}">Ajouter une région</a>
 {% endblock %}

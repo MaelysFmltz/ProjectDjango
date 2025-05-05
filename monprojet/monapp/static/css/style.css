@@ -62,7 +62,7 @@ h2 {
     margin-bottom: 15px;
 }
 
-/* Boutons */
+
 .btn, button {
     display: inline-block;
     background-color: #005fa3;
@@ -79,7 +79,6 @@ h2 {
     background-color: #003f73;
 }
 
-/* Liens d’action */
 a.edit, a.delete {
     margin-left: 10px;
     text-decoration: none;
@@ -127,4 +126,100 @@ form input, form select, form textarea {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+/* Cacher la case à cocher par défaut */
+.checkbox {
+  display: none;
+}
+
+/* Ajouter un style personnalisé pour la case à cocher */
+.checkbox + label {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Lorsque la case est cochée */
+.checkbox:checked + label {
+  background-color: #4CAF50; /* Vert */
+  border-color: #4CAF50;
+}
+
+/* Au survol de la case à cocher */
+.checkbox + label:hover {
+  border-color: #666;
+}
+
+/* Styliser l'élément li pour un espacement propre */
+.liste li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.liste li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Stylisation du bouton */
+.btn-supprimer {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-supprimer:hover {
+  background-color: #cc0000;
+}
+
+form {
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form .liste {
+  margin-bottom: 20px;
+}
+
+
+/* Liste des éléments avec Flexbox */
+.liste {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Espacement entre les éléments */
+}
+
+/* Centrer le formulaire */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Bouton de suppression centré */
+.btn-supprimer {
+  align-self: center;
 }
