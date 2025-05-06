@@ -9,6 +9,6 @@ class PaysForm(forms.ModelForm):
 class RegionForm(forms.ModelForm):
     class Meta:
         model = Region
-        fields = ['nom', 'superficie', 'population', 'capitale', 'pays']
+        fields = ['pays','region','ville', 'superficie', 'population']
 
     pays = forms.ModelChoiceField(queryset=Pays.objects.all(), empty_label="Choisir un pays")

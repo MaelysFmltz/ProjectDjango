@@ -9,7 +9,7 @@
     <ul class="liste">
       {% for p in pays %}
         <li>
-          <input type="checkbox" name="pays" value="{{ p.pk }}"> {{ p.nom }} (code : {{ p.code }})
+          <input type="checkbox" name="pays" value="{{ p.pk }}"> {{ p.nom }}
         </li>
       {% empty %}
         <li>Aucun pays enregistré.</li>

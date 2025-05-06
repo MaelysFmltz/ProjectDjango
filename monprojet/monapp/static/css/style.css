@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color:#f2f4f7
+    background-color:#f2f4f7;
     color: white;
     padding: 20px;
     text-align: center;
@@ -127,12 +127,11 @@ form input, form select, form textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-/* Cacher la case à cocher par défaut */
+
 .checkbox {
   display: none;
 }
 
-/* Ajouter un style personnalisé pour la case à cocher */
 .checkbox + label {
   display: inline-block;
   width: 20px;
@@ -144,18 +143,15 @@ form input, form select, form textarea {
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
-/* Lorsque la case est cochée */
 .checkbox:checked + label {
-  background-color: #4CAF50; /* Vert */
+  background-color: #4CAF50;
   border-color: #4CAF50;
 }
 
-/* Au survol de la case à cocher */
 .checkbox + label:hover {
   border-color: #666;
 }
 
-/* Styliser l'élément li pour un espacement propre */
 .liste li {
   display: flex;
   align-items: center;
@@ -170,7 +166,6 @@ form input, form select, form textarea {
   background-color: #f0f0f0;
 }
 
-/* Stylisation du bouton */
 .btn-supprimer {
   background-color: #ff4d4d;
   color: white;
@@ -198,14 +193,12 @@ form .liste {
 }
 
 
-/* Liste des éléments avec Flexbox */
 .liste {
   display: flex;
   flex-direction: column;
-  gap: 15px; /* Espacement entre les éléments */
+  gap: 15px;
 }
 
-/* Centrer le formulaire */
 form {
   display: flex;
   flex-direction: column;
@@ -219,7 +212,38 @@ form {
   margin: auto;
 }
 
-/* Bouton de suppression centré */
+
 .btn-supprimer {
   align-self: center;
+}
+
+.liste {
+    list-style: none;
+    padding: 0;
+}
+
+.region-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fafafa;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    gap: 40px;
+}
+
+.region-left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-weight: bold;
+    color: #333;
+}
+
+.region-right {
+    text-align: right;
+    font-size: 0.95em;
+    color: #555;
 }

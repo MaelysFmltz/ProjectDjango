@@ -1,9 +1,9 @@
 {% extends 'monapp/base.html' %}
 
-{% block title %}Formulaire Région{% endblock %}
+{% block title %}Formulaire des Régions{% endblock %}
 
 {% block content %}
-    <h2>Formulaire de Région</h2>
+    <h2>Formulaire pour les Régions</h2>
     <form method="post">
         {% csrf_token %}
         {{ form.as_p }}
