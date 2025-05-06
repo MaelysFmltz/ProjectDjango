@@ -15,6 +15,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 28px;
+    color: #003f73;
 }
 
 nav ul {
@@ -29,13 +30,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #cce6ff;
+    color: #7dc1f0;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #ffffff;
+    color: #bae0fa;
     text-decoration: underline;
 }
 
@@ -237,9 +238,10 @@ form {
 .region-left {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 8px;
     font-weight: bold;
     color: #333;
+    white-space: nowrap;
 }
 
 .region-right {

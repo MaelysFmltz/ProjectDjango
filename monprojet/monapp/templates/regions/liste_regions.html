@@ -11,12 +11,13 @@
         <li class="region-item">
           <div class="region-left">
             <input type="checkbox" name="regions" value="{{ r.pk }}">
-            <span class="region-name">{{ r.region }}</span> (<strong>Pays</strong> : {{ r.pays.nom }})
+            <span class="region-name">{{ r.region }}</span>
+            <span>(<strong>Pays</strong> : {{ r.pays.nom }})</span>
           </div>
           <div class="region-right">
-              <span><strong>Superficie</strong> : {{ r.superficie }} km²</span><br>
+              <span><strong>Ville</strong> : {{ r.ville }}</span><br>
             <span><strong>Population</strong> : {{ r.population }} habitants</span><br>
-              <span><strong>Ville</strong> : {{ r.ville }}</span>
+              <span><strong>Superficie</strong> : {{ r.superficie }} km²</span>
           </div>
         </li>
       {% empty %}
